@@ -1,0 +1,31 @@
+<div class="popup">
+	{{#tooltipBox}}
+		<div class="popup-holder">
+			<a href="#" class="popup-close">close</a>
+			<dl>
+				<dt>abkuerzung:</dt>
+				<dd>{{abkuerzung}}</dd>
+				<dt>datum:</dt>
+				<dd>{{datum}}</dd>
+				<dt>db_kuerzel:</dt>
+				<dd>{{dbkuerzel}}</dd>
+				<dt>db_station:</dt>
+				<dd>{{dbstation}}</dd>
+				<dt>ew_knoten:</dt>
+				<dd>{{ewknoten}}</dd>
+				<dt>fid:</dt>
+				<dd>{{fid}}</dd>
+				<dt>f_table:</dt>
+				<dd>{{ftable}}</dd>
+				<dt>gid:</dt>
+				<dd>{{gid}}</dd>
+				<dt>knotentyp:</dt>
+				<dd>{{knotentyp}}</dd>
+				<dt>koordinate:</dt>
+				<dd>{{koordinate}}</dd>
+				<dt>name:</dt>
+				<dd>{{name}}</dd>
+			</dl>
+		</div>
+	{{/tooltipBox}}
+</div>

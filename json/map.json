@@ -1,0 +1,23 @@
+{
+	"markers": [
+		{
+			"mainMarker": true,
+			"lat": "47.378504",
+			"lng": "8.552409",
+			"markerId": 1,
+			"tooltipBox" : {
+				"abkuerzung": "LEIMS21",
+				"datum": "03.01.1966",
+				"dbkuerzel": "30305",
+				"dbstation": "30305",
+				"ewknoten": "",
+				"fid": "1273",
+				"ftable": "EW_KNOTEN",
+				"gid": "1273",
+				"knotentyp": "Netzstation mitTrafo 12KV/400V",
+				"koordinate": "610912/267103",
+				"name": "Leimenstr. 21"
+			}
+		}
+	]
+}

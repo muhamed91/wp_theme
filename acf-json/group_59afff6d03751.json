@@ -1,0 +1,70 @@
+{
+    "key": "group_59afff6d03751",
+    "title": "Header",
+    "fields": [
+        {
+            "key": "field_59afff6efb5e2",
+            "label": "Links",
+            "name": "links",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_59afff7bfb5e3",
+                    "label": "Link",
+                    "name": "link",
+                    "type": "link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "!=",
+                "value": "default"
+            },
+            {
+                "param": "page_template",
+                "operator": "!=",
+                "value": "pages\/template-pv-ausbau.php"
+            },
+            {
+                "param": "page_template",
+                "operator": "!=",
+                "value": "pages\/template-projects.php"
+            }
+        ]
+    ],
+    "menu_order": 2,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1504706650
+}
